@@ -12,4 +12,4 @@ where
     st_distance(st_geogpoint(c.longitude, c.latitude), st_geogpoint(s.long, s.lat))
     < 1000
 order by crime_id, distance asc
-limit 1000
+
